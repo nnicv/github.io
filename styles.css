@@ -14,11 +14,13 @@ body {
 }
 .pageTitle {
 	display:flex;
+	margin:50px auto;
 	justify-content:center;
 }
 .menu-container {
 	display: flex;
 	flex-direction: row;
+	margin:20px auto;
 	justify-content: center;
 }
 .nav-bg {
@@ -61,7 +63,7 @@ li a.link:hover {
 }
 /**/
 .hero-section {
-	background: url('assets/background_unsplash.png');
+	background: url('assets/hackerman_background.png');
 	background-position: top left;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -109,8 +111,4 @@ h2 {
 .link-content:hover {
 	color:white;	
 	background-color:#dea555;	
-}
-.divider{
-	max-width:1200px;
-	min-width:1000px;
 }
