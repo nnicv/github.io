@@ -2,7 +2,8 @@
 
 body {
 	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
-	margin: 0;
+	margin: 20px 0;
+	background-color:mintcream;
 }
 .content{
 	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -10,6 +11,10 @@ body {
 	padding:0;
 	display: flex;
 	justify-content: center;
+}
+.pageTitle {
+	display:flex;
+	justify-content:center;
 }
 .menu-container {
 	display: flex;
@@ -19,13 +24,12 @@ body {
 .nav-bg {
 	display: flex;
 	max-width: 1200px;
-	flex-direction: row;
-	background-color: #f3f3f3;
+	flex-direction: column;
 	flex: 1;
 }
 .nav-bg ul {
 	display: flex;
-	justify-content: flex-end;
+	justify-content: center;
 	flex-direction: row;
 	flex: 1;
 }
@@ -40,8 +44,8 @@ body {
 }
 ul {
 	display: flex;
-	justify-content: flex-end;
-	align-self: flex-end;
+	justify-content: center;
+	align-self: center;
 	margin: 0;
 }
 h2{
@@ -49,11 +53,11 @@ h2{
 }
 li a.link {
 	font-weight: bold;
-	padding: 20px;
-	transition: background-color ease-in-out 0.2s;
+	padding: 20px 40px;
+	transition: color ease-in-out 0.2s;
 }
 li a.link:hover {
-	background-color: #A1A1A1;
+	color: #deb887;
 }
 /**/
 .hero-section {
@@ -61,7 +65,6 @@ li a.link:hover {
 	background-position: top left;
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-color: #B4D0E7;
 	min-width: 1000px;
 	display: flex;
 	width: auto;
@@ -88,14 +91,26 @@ h2 {
 	text-align: right;
 	align-content: flex-end;
 }
+
 .link-content {
 	padding: 20px 40px;
 	background-color: #deb887;
 	display: flex;
-	max-width: 100px !important;
+	max-width: 300px !important;
 	justify-content: flex-end;
 	align-self: flex-end;
 	border-radius: 10px;
 	text-decoration: none;
 	color: black;
+	text-align: center;
+	transition:color ease-in-out 0.1s;
+	transition:background-color ease-in 0.2s;
+}
+.link-content:hover {
+	color:white;	
+	background-color:#dea555;	
+}
+.divider{
+	max-width:1200px;
+	min-width:1000px;
 }
