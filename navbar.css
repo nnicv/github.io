@@ -1,0 +1,101 @@
+/*Final file*/
+
+body {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	margin: 0;
+}
+.content{
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin: 0;
+	padding:0;
+	display: flex;
+	justify-content: center;
+}
+.menu-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.nav-bg {
+	display: flex;
+	max-width: 1200px;
+	flex-direction: row;
+	background-color: #f3f3f3;
+	flex: 1;
+}
+.nav-bg ul {
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: row;
+	flex: 1;
+}
+.link, ul {
+	list-style-type: none;
+	text-decoration: none;
+	color: black;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	padding: 0 20px;
+}
+ul {
+	display: flex;
+	justify-content: flex-end;
+	align-self: flex-end;
+	margin: 0;
+}
+h2{
+	margin:0 20px;
+}
+li a.link {
+	font-weight: bold;
+	padding: 20px;
+	transition: background-color ease-in-out 0.2s;
+}
+li a.link:hover {
+	background-color: #A1A1A1;
+}
+/**/
+.hero-section {
+	background: url('assets/background_unsplash.png');
+	background-position: top left;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: #B4D0E7;
+	min-width: 1000px;
+	display: flex;
+	width: auto;
+	max-width: 1200px;
+}
+.hero-text, .hero-image {
+	display: flex;
+	justify-content: flex-end;
+	flex: 1;
+}
+.hero-text {
+	padding: 80px;
+	flex-direction: column;
+}
+.hero-text p{
+	line-height:2rem;
+}
+h2 {
+	margin: 0;
+}
+.hero-text p, .hero-text h2, .hero-text a {
+	display: flex;
+	justify-content: flex-end;
+	text-align: right;
+	align-content: flex-end;
+}
+.link-content {
+	padding: 20px 40px;
+	background-color: #deb887;
+	display: flex;
+	max-width: 100px !important;
+	justify-content: flex-end;
+	align-self: flex-end;
+	border-radius: 10px;
+	text-decoration: none;
+	color: black;
+}
