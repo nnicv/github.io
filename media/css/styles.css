@@ -261,6 +261,9 @@ h2#aboutTitle {
 img#aboutMeImg{
 	max-height:300px;
 	max-width: 90%;
+	margin:0 auto;
+	display:block;
+	padding:20px 0;
 }
 p#aboutDesc{
 	margin:22px;
