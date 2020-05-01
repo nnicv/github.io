@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects - Nicholas Chudinov Portfolio Page</title>
+    <link rel="stylesheet" href="media/css/styles.css" />
+    <link rel="icon" href="./images/favicon.ico" />
+    <scripts type="text/javascript" src="media/scripts/scripts.js"></scripts>
+</head>
+<body>
+    <div id="mainBodyContainer">
+        <nav class="nav-grid-container">
+            <div class="nav-grid-item">
+                <hr class="nav-line" />
+            </div>
+            <div class="nav-grid-item"><a href="index.html">Home</a></div>
+            <div class="nav-grid-item"><a href="about.html">About</a></div>
+            <div class="nav-grid-item"><a href="projects.html">Projects</a></div>
+            <div class="nav-grid-item"><a href="influences.html">Influences</a></div>
+            <div class="nav-grid-item"><a href="contact.html">Contact</a></div>
+            <div class="nav-grid-item">
+                <hr class="nav-line" />
+            </div>
+        </nav>
+        <section class="centered-header-content" id="centered-header-about-page">
+            <h2 id="aboutTitle">About Me</h2>
+            <img id="aboutMeImg" srcset="
+                 ./media/images/me/aboutme_s.jpg 1x,
+                 ./media/images/me/aboutme_m.jpg 2x,
+                 ./media/images/me/aboutme_xl.jpg 3x"
+                 alt="" />
+            <p id="aboutDesc">
+                My name is Nicholas Chudinov. I graduated Graphics &amp; Web Design in 2018 but
+                later came back to John Abbott College to get a degree in Computer Sciences because
+                it interests me more than doing graphics. I like to code and solve puzzles and the
+                idea of creating something that can do automate tasks that we humans tediously do
+                from a blank code file. I plan on continuing my pursuit to reach Software Engineer status.
+            </p>
+            <button id="downloadDSGuideBtn" onmousedown="document.getElementById('downloadDSGuideBtn').style.backgroundColor = 'rgb(227, 112, 70)';" onmouseup="document.getElementById('downloadDSGuideBtn').style.backgroundColor = 'rgb(255,127,80)';">Download Design Style Guide - set up later</button>
+        </section>
+        
+    </div>
+    <section class="footer">
+        <div></div>
+        <footer>Nicholas Chudinov &copy;2020</footer>
+        <div></div>
+    </section>
+</body>
+</html>

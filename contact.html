@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact - Nicholas Chudinov Portfolio Page</title>
+    <link rel="stylesheet" href="media/css/styles.css" />
+    <link rel="icon" href="./images/favicon.ico" />
+    <scripts type="text/javascript" src="media/scripts/scripts.js"></scripts>
+</head>
+<body>
+    <div id="mainBodyContainer">
+        <nav class="nav-grid-container">
+            <div class="nav-grid-item">
+                <hr class="nav-line" />
+            </div>
+            <div class="nav-grid-item"><a href="index.html">Home</a></div>
+            <div class="nav-grid-item"><a href="about.html">About</a></div>
+            <div class="nav-grid-item"><a href="projects.html">Projects</a></div>
+            <div class="nav-grid-item"><a href="influences.html">Influences</a></div>
+            <div class="nav-grid-item"><a href="contact.html">Contact</a></div>
+            <div class="nav-grid-item">
+                <hr class="nav-line" />
+            </div>
+        </nav>
+        <section class="centered-header-content" id="centered-header-contact-page">
+            <form id="contactForm" action="" method="post" autocomplete="off" onsubmit="window.alert('Thank you for your interest! I will contact you back usually in 3-5 days.')">
+                <h2 class="contactTitle">Contact Me</h2>
+                <input type="text" id="fname" name="fullname" placeholder="Enter your full name" />
+
+                <input type="tel" id="telnum" name="telnumber" placeholder="Enter your phone number" />
+
+                <input type="email" id="email" name="email" placeholder="Enter your email address" />
+
+                <label class="radioLabel">Select prefered contact method</label>
+                <div class="radioSet">
+                    <div>
+                        <input type="radio" id="selTel" name="preferedContactMethod" value="telephone">
+                        <label for="selTel">Telephone</label><br>
+                    </div>
+                    <div>
+                        <input type="radio" id="selEmail" name="preferedContactMethod" value="email">
+                        <label for="selEmail">Email</label><br>
+                    </div>
+                </div>
+
+                <select id="province" name="province">
+                    <option value="" >Select a province</option>
+                    <option value="alberta">Alberta</option>
+                    <option value="bc">British Columbia</option>
+                    <option value="manitoba">Manitoba</option>
+                    <option value="nb">New Brunswick</option>
+                    <option value="nl">Newfoundland and Labrador</option>
+                    <option value="nwt">Northwest Territories</option>
+                    <option value="ns">Nova Scotia</option>
+                    <option value="nunavut">Nunavut</option>
+                    <option value="ontario">Ontario</option>
+                    <option value="pei">Prince Edward Island</option>
+                    <option value="quebec">Quebec</option>
+                    <option value="saskatchewan">Saskatchewan</option>
+                    <option value="yukon">Yukon</option>
+                </select>
+
+                <textarea id="subject" name="subject" maxlength="200" placeholder="Write your message here"></textarea>
+
+                <input type="submit" id="submitBtn" value="Submit" onmousedown="document.getElementById('submitBtn').style.backgroundColor = 'rgb(227, 112, 70)';" onmouseup="document.getElementById('submitBtn').style.backgroundColor = 'rgb(255,127,80)';">
+            </form>
+        </section>
+    </div>
+    <section class="footer">
+        <div></div>
+        <footer>Nicholas Chudinov &copy;2020</footer>
+        <div></div>
+    </section>
+</body>
+</html>
